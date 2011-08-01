@@ -1,0 +1,32 @@
+
+.entry-main {
+   background-color: #243A3f;
+}
+
+.entry-title, .entry-title a, .entry-author {
+   font-family: "Times New Roman", Times, serif;
+   font-color: #D6DBDF;
+   font-size: 24px;
+   
+}
+
+.entry-author {
+   font-family: "Times New Roman", Times, serif;
+   font-color: #D6DBDF;
+   font-size: 12px;
+}
+
+.entry-body {
+   font-family: "Times New Roman", Times, serif;
+   font-color: #D6DBDF;
+   font-size: 16px;
+}
+
+.item-body {
+
+}
+
+.item-body a:link {
+   
+
+}
