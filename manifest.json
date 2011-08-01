@@ -5,5 +5,13 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
-  "content_scripts": "readerbility.js"
+  "permissions": [
+  "tabs", "http://google.com/reader/*"
+  ],
+  "content_scripts":[
+     {
+	"matches": [http://www.google.com/reader/*"],
+	"css": ["readerbility.css"]
+	"js": ["readerbility.js"],
+     }
 }
