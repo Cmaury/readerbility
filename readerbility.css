@@ -1,11 +1,11 @@
 
 .entry-main {
-   background-color: #243A3f;
+   background-color: #333333;
 }
 
 .entry-title, .entry-title a, .entry-author {
    font-family: "Times New Roman", Times, serif;
-   font-color: #D6DBDF;
+   font-color: white;
    font-size: 24px;
    
 }
@@ -17,16 +17,22 @@
 }
 
 .entry-body {
-   font-family: "Times New Roman", Times, serif;
-   font-color: #D6DBDF;
-   font-size: 16px;
+	color: white;
 }
-
+.read .entry-container .entry-body {
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	font-size: 16px;
+}
 .item-body {
-
+   font-family: "Times New Roman", Times, serif;
+   color: white;
+   font-size: 16px;
 }
 
 .item-body a:link {
    
 
 }
+
