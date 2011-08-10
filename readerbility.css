@@ -1,18 +1,74 @@
+tbody, td, #chrome-viewer, #viewer-container, .samedir, .entry, #entries .cards, .samedir #entries .entry, .samedir #entries.list .entry-container {
+	background-color:#999999;
+}
+
+//Navigation Background
+#nav #lhn-selectors .section .lhn-section-secondary,
+#nav #lhn-recommendations .section .lhn-section,
+#nav li,
+.lhn-section-primary, 
+.lhn-section-secondar, 
+#your-item-tree-container, 
+#lhn-recommendations, 
+section .lhn-section, 
+.lhn-section, 
+#nav, 
+.scroll-tree li {
+	border-top: solid 1px #333333;
+	background-color:#999999;
+}
+
+.scroll-tree-container .scroll-tree li, #nav #lhn-selectors {
+    background-color: #999999;
+	font-family: "Georgia", Garamond, serif;
+	color: #D6DBDF;
+	font-size: 14px;
+}
+
+#lhn-subscriptions .lhn-section-primary, #nav #lhn-recommendations, #nav .lhn-section {
+    border-top: solid 1px #333333;
+    background-color: #999999;
+	font-family: "Georgia", Garamond, serif;
+	font-size: 15px;
+}
 
 .entry-main {
    background-color: #333333;
 }
 
+.entry-container {
+   background-color: #333333;
+}
+
+.card-content {
+    background-color: #333333;
+   }
+
+.entry-likers-n {
+	   background-color: #333333;
+   }
+
+.entry-title-link{
+   color:#D6DBDF;
+}
+
+#current-container {
+   color:#D6DBDF;
+}
+.entry-source-link {
+    color: #D6DBDF;
+}
+
 .entry-title, .entry-title a, .entry-author {
-   font-family: "Times New Roman", Times, serif;
-   font-color: white;
+   font-family: "Georgia", Garamond, serif;
+   color: #D6DBDF;
    font-size: 24px;
    
 }
 
-.entry-author {
-   font-family: "Times New Roman", Times, serif;
-   font-color: #D6DBDF;
+#entries .entry-container a.entry-post-author-name, .entry-author {
+   font-family: "Georgia", Garamond, serif;
+   color: #D6DBDF;
    font-size: 12px;
 }
 
@@ -20,13 +76,27 @@
 	color: white;
 }
 .read .entry-container .entry-body {
+	color: #D6DBDF;
+	font-family: "Georgia", Garamond, serif;
 	color: white;
-	font-family: "Times New Roman", Times, serif;
-	color: white;
-	font-size: 16px;
+	font-size: 22px;
 }
+
+	
+#entries #current-entry .entry-container .entry-title a, #entries #current-entry .entry-container a.entry-source-title, #entries #current-entry .entry-container .entry-body a, #entries #current-entry .entry-container a.entry-post-author-name {
+	color: #D6DBDF;
+}
+
+a, a:visited, .link {
+	color:#D6DBDF;
+}
+	
+.item-body a:link {
+    color: #D6DBDF;
+}
+
 .item-body {
-   font-family: "Times New Roman", Times, serif;
+   font-family: "Georgia",Garamond,serif;
    color: white;
    font-size: 16px;
 }

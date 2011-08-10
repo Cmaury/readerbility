@@ -9,7 +9,8 @@
      {
 	"matches": ["http://www.google.com/reader/*"],
 	"css": ["readerbility.css"],
-	"js": ["readerbility.js"]
+	"js": ["readerbility.js"],
+	"run_at": "document_end"
      }
   ]
 }
