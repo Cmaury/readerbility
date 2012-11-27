@@ -1,4 +1,6 @@
+//Updated for Manifest 2.0
 {  
+  "manifest_version": 2,
   "name": "ReaderBility",
   "version": "0.0.1",
   "description": "Make Google Reader more accessible to the Visually Impaired",
@@ -9,7 +11,6 @@
      {
 	"matches": ["http://www.google.com/reader/*"],
 	"css": ["readerbility.css"],
-	"js": ["readerbility.js"],
 	"run_at": "document_end"
      }
   ]
